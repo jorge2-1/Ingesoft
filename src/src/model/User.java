@@ -28,4 +28,7 @@ public class User {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+    public String toString(){
+        return "Nombre de usuario : " + this.name + "Identificacion : " + this.id + "Telefono: " + this.phoneNumber;
+    }
 }
