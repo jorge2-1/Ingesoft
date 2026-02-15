@@ -5,6 +5,12 @@ public class User {
     private String id;
     private String phoneNumber;
 
+    public User(String name, String id, String phoneNumber) {
+        this.name = name;
+        this.id = id;
+        this.phoneNumber = phoneNumber;
+    }
+
     public String getName() {
         return name;
     }
